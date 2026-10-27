@@ -10,7 +10,7 @@ import CreateOrder, {
 import Order, { loader as orderLoader } from "./features/order/Order";
 import { action as updateOrderAction } from "./features/order/UpdateOrder";
 import AppLayout from "./ui/AppLayout";
-// passing an array of object that each object is a route
+// passing an array of object that each object is a route .
 // this is necessary for react router v6 because of data loading (data fetching) the old one is fine but u can not submit data as a form or load data or read data
 
 // actions is all about mutate data or write data  => state that store on some server | manage some remote server state using action functions and forms and wire up to routes as loader
